@@ -6,15 +6,22 @@
     "orientation": "portrait",
     "scheme": "tryvirtually",
     "userInterfaceStyle": "light",
+
     "splash": {
       "backgroundColor": "#1E3A5F"
     },
+
+    "web": {
+      "bundler": "metro"
+    },
+
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#1E3A5F"
       },
       "predictiveBackGestureEnabled": false
     },
+
     "plugins": [
       [
         "expo-splash-screen",
